@@ -19,11 +19,16 @@ require_once("./helpers/table_helper.php");
 	</head>
 	<body ic-launch-debugger="true">
 		<div class="container">
-			<h2>CRUD Table Demo</h2>
+			<h2>CRUD Table Demo <span class="small">with <a href="http://intercoolerjs.org/" target="_blank">intercooler.js</a></span></h2>
+			<p class="muted">GitHub repository: <a href="https://github.com/waifung0207/ic_crudtable">waifung0207/ic_crudtable</a></p>
 
 			<!-- target DIV to update -->
 			<div id="target">
 				<?php require_once('pages/list.php'); ?>
+			</div>
+			<div class="col-lg-12 text-center">
+				Authored by Michael Chan <br/>
+				<a href="https://github.com/waifung0207">waifung0207</a> / <a href="http://waifung.hk" target="_blank">waifung.hk</a>
 			</div>
 		</div>
 
